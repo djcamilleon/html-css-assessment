@@ -1,0 +1,86 @@
+html { 
+  background: url('./img/main-bg.jpeg') no-repeat center center fixed; 
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Chango', cursive;
+  font-size: 32px;
+  color: whitesmoke;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+.main-header {
+    width: 100%;
+    height: 10vh;
+    position: relative;
+}
+.site-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 69px 150px 0px 150px;
+}
+.menu-1 {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 75px;
+    width: 80px;
+}
+.img-twit {
+    width: 25px;
+    height: auto;
+}
+.img-fb {
+    width: 25px;
+    height: auto;
+}
+.social-media {
+    display: none;
+    justify-content: space-around;
+    position: absolute;
+    top: 70px;
+    right: 75px;
+    width: 80px;
+}
+.fa-facebook {
+    color: whitesmoke;
+}
+.fa-twitter {
+    color: whitesmoke;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+}
+.your {
+    font-size: 132px;
+}
+.portfolio {
+    font-size: 28px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.down-arrow {
+    height: 70px;
+}
+
+@media (max-width: 700px) {
+    .site-nav {
+        display: none;
+    }
+    .menu-1 {
+        display: unset;
+    }
+    .social-media {
+        display: unset;
+        display: flex;
+    }
+}
